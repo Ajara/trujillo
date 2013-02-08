@@ -1,4 +1,0 @@
-trujillo
-========
-
-App trujillo
