@@ -1,6 +1,0 @@
-trujillo
-========
-
-App trujillo
-
-Sup
