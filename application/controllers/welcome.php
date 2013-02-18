@@ -35,7 +35,7 @@ class Welcome extends CI_Controller {
 
 		// See if there is a user from a cookie
 		$user = $this->facebook->getUser();
-		//print_r($user);
+		// print_r($user);
 		if ($user) {
 		  try {
 		    // Proceed knowing you have a logged in user who's authenticated.
@@ -50,7 +50,7 @@ class Welcome extends CI_Controller {
 		$this->data['user_profile'] = $user_profile;
 
 		$this->load->view('welcome_message', $this->data);
-		
+		print_r($this->data);
 	}
 }
 
